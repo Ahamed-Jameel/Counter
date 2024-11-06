@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova SC", serif;;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(27deg, #dfe4ea 50%, #f1f2f6 50%);
+}
+#wrapper {
+    background: #1e272e;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    margin: 0 5px;
+    color: #dfe4ea;
+}
+
+p {
+    color: #1e272e;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 10px;
+    overflow-wrap: break-word;
+}
+
+#value {
+    color: #dfe4ea;
+    font-size: 100px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+i{
+    padding: 10px 35px;
+    font-size: 25px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background: #1aa;
+    cursor: pointer;
+}
+
+i:active{
+    transform: translateY(4px);
+}
